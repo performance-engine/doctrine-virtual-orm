@@ -1,6 +1,24 @@
 {
     "name": "performance-engine/doctrine-virtual-orm",
     "description": "On the fly configurable entities and relations in doctrine style",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/sheet",
+                "version": "1.0.0",
+                "source": {
+                    "url": "http://jquerysheet.googlecode.com/svn",
+                    "type": "svn",
+                    "reference": "trunk/"
+                },
+                "autoload": {
+                    "classmap": ["/"]
+                }
+            }
+        }
+    ],
     "authors": [
         {
             "name": "Yura Rodchyn",
@@ -8,6 +26,6 @@
         }
     ],
     "require": {
-
+	"jquery/sheet": "*"
     }
 }
