@@ -1,0 +1,13 @@
+{
+    "name": "performance-engine/doctrine-virtual-orm",
+    "description": "On the fly configurable entities and relations in doctrine style",
+    "authors": [
+        {
+            "name": "Yura Rodchyn",
+            "email": "rodchyn@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}
